@@ -1,6 +1,6 @@
 version: "2"
 
 services:
-  flight-manual:
+  ros-learning:
     # This keeps the container running so vscode can connect
     command: /bin/sh -c "while sleep 1000; do :; done"
