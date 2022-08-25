@@ -1,0 +1,14 @@
+
+version: "2"
+
+services:
+  ros-learning:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - type: bind
+        source: .
+        target: /home/ubuntu/ros-learning
+        read_only: false
+    working_dir: /home/ubuntu/ros-learning
