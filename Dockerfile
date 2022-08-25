@@ -13,7 +13,8 @@ RUN set -o nounset -o errexit \
         git \
         nano \
         gnupg \
-        byobu 
+        byobu \
+        build-essential
 
 # Install apt sources needed for ROS 
 RUN echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list
@@ -30,5 +31,7 @@ RUN set -o nounset -o errexit \
 RUN echo "source /opt/ros/noetic/setup.sh" >> .bashrc
 
 # setup catkin workspace:
-RUN mkdir -p ~/catkin_ws/src
-RUN cd ~/catkin_ws/ && catkin_make
+#RUN /bin/bash -c "source /opt/ros/noetic/setup.sh \
+#    && mkdir -p ~/ros-learning/catkin_ws/src \
+#    && cd ~/ros-learning/catkin_ws/ \   
+#    && catkin_make "
