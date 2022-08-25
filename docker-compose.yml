@@ -9,6 +9,6 @@ services:
     volumes:
       - type: bind
         source: .
-        target: /home/ubuntu/ros-learning
+        target: /root/ros-learning
         read_only: false
-    working_dir: /home/ubuntu/ros-learning
+    working_dir: /root/ros-learning
