@@ -31,7 +31,7 @@ RUN set -o nounset -o errexit \
 RUN echo "source /opt/ros/noetic/setup.sh" >> .bashrc
 
 # setup catkin workspace:
-#RUN /bin/bash -c "source /opt/ros/noetic/setup.sh \
-#    && mkdir -p ~/ros-learning/catkin_ws/src \
-#    && cd ~/ros-learning/catkin_ws/ \   
-#    && catkin_make "
+RUN /bin/bash -c "source /opt/ros/noetic/setup.sh \
+    && mkdir -p ~/ros-learning/src \
+    && cd ~/ros-learning/ \   
+    && catkin_make "
