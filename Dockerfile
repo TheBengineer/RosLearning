@@ -25,6 +25,8 @@ RUN curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sud
 RUN set -o nounset -o errexit \
     && apt-get update -qq \
     && apt-get install -q -y --no-install-suggests \
+        git \
+        nano \
         ros-noetic-ros-base 
 
 
