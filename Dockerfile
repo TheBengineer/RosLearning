@@ -34,6 +34,6 @@ RUN echo "source /opt/ros/noetic/setup.sh" >> .bashrc
 
 # setup catkin workspace:
 RUN /bin/bash -c "source /opt/ros/noetic/setup.sh \
-    && mkdir -p ~/ros-learning/src \
-    && cd ~/ros-learning/ \   
+    && mkdir -p ~/ros-build/src \
+    && cd ~/ros-build/ \   
     && catkin_make "
