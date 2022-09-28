@@ -3,7 +3,7 @@
 
 cmake_minimum_required(VERSION 3.0.2)
 
-project(RosLearning)
+project(simple_pub_sub)
 
 set(CATKIN_TOPLEVEL TRUE)
 
@@ -67,10 +67,3 @@ else()
 endif()
 
 catkin_package()
-catkin_workspace()
-
-catkin_install_python(PROGRAMS 
-  scripts/talker.py 
-  scripts/listener.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
