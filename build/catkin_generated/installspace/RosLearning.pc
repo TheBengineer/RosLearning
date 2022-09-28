@@ -1,8 +1,0 @@
-prefix=/root/ros-learning/simple_pub_sub/install
-
-Name: RosLearning
-Description: Description of RosLearning
-Version: 0.0.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

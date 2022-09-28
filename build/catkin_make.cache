@@ -1,2 +1,0 @@
-simple_pub_sub
--DCATKIN_DEVEL_PREFIX=/root/ros-learning/devel -DCMAKE_INSTALL_PREFIX=/root/ros-learning/install -G Unix Makefiles
