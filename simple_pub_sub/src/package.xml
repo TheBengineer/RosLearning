@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
 <package>
-  <name>ros_learning</name>
+  <name>RosLearning</name>
   <version>0.0.1</version>
   <description>
     Attempting to learn Ros.
   </description>
   <license>BSD</license>
+
+  <maintainer email="bengineeringelm@gmail.com">Ben Holleran</maintainer>
 
   <url type="repository">https://github.com/TheBengineer/ros-learning</url>
   <author>Ben Holleran</author>
