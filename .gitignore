@@ -1,3 +1,4 @@
 catkin_ws
 /simple_pub_sub/build/*
 /simple_pub_sub/devel/*
+.idea
