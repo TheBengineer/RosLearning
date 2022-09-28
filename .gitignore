@@ -4,3 +4,4 @@ catkin_ws
 .idea
 /build
 /devel
+/install
